@@ -32,12 +32,6 @@
 }
 
 /*header*/
-.header{
-    background-image: url("../pictures/HomeBanner.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
 .overlay{
     position: absolute;
     min-height: 100%;
@@ -45,6 +39,15 @@
     left: 0;
     top: 0;
     background: var(--banner-low);
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../pictures/HomeBanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .description{
     position: absolute;
