@@ -2,7 +2,8 @@ docs_list_title: ACME Documentation
 docs:
 
   - title: Home
-    url: /NYT-Website
+    url: /
 
   - title: About
-    url: /NYT-Website/About
+    url: /About.html
+

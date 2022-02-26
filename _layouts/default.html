@@ -39,6 +39,9 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             {% for item in site.data.navigation.docs %}
+            <script>
+                console.log(' {{item.url}} === {{page.url}}')
+            </script>
             <li class= "{% if item.url == page.url %}d-none{% endif %}">
                 <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             </li>
