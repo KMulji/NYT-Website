@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section id="urgent">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="pictures/donate_1.jpg"/>
+            </div>
+            <div class="col-lg-8">
+                <h2>Current Challenges</h2>
+                <ul class="list-group list-group-flush">
+                    {% for item in site.data.donationList %}
+                    <li class="list-group-item">
+                        <h5>{{item.title}}</h5>
+                        <p>{{item.description}}</p>
+                    </li>
+                    {% endfor %}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="help">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>How You Can Help ?</h2>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="pictures/donate2.jpg"/>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+

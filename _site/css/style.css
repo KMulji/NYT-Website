@@ -158,7 +158,7 @@
 
 /*about us page*/
 
-.about_us{
+.about_us,.donate{
     margin-top:4em;
 
     position: relative;
@@ -172,13 +172,13 @@
 }
 
 .about_us .card {
-    box-shadow: 0 0 15px var(--blue);
+    box-shadow: 0 0 5px var(--blue);
 }
 
 .about_us .card-body{
     padding: 1em;
     font-family: 'Vollkorn', serif;
-    font-size:1.5rem;
+    font-size:1.2rem;
 }
 
 .about_us .card a{
@@ -196,4 +196,22 @@
 .donwload{
     background-color: var(--blue);;
 }
+#urgent{
+    margin-top: 5rem;
+
+}
+#urgent h2,h5,p{
+    font-family: 'Vollkorn', serif;
+    color:var(--blue);
+}
+#help{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#help h2,h5,p{
+    font-family: 'Vollkorn', serif;
+    color:var(--blue);
+
+}
+
 
