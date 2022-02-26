@@ -6,10 +6,9 @@ layout: default
         <h2>Current Challenges</h2>
         <div class="row">
             <div class="col-lg-4 d-flex align-items-stretch">
-                <img class="img-fluid" src="pictures/donate_1.jpg"/>
+                <img src="pictures/donate_1.jpg"/>
             </div>
             <div class="col-lg-8 d-flex align-items-stretch">
-
                 <ul class="list-group list-group-flush">
                     {% for item in site.data.donationList %}
                     <li class="list-group-item">
@@ -26,8 +25,16 @@ layout: default
     <div class="container-fluid">
         <h2>How You Can Help ?</h2>
         <div class="row">
+
             <div class="col-lg-8 d-flex align-items-stretch">
-                <h2>How You Can Help ?</h2>
+                <ul class="list-group list-group-flush">
+                    {% for item in site.data.howToHelp %}
+                    <li class="list-group-item">
+                        <h5>{{item.title}}</h5>
+                        <p>{{item.description}}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
             <div class="col-lg-4 d-flex align-items-stretch">
                 <img class="img-fluid" src="pictures/donate2.jpg"/>

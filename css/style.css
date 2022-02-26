@@ -200,6 +200,11 @@
     margin-top: 5rem;
 
 }
+#urgent img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 #urgent h2,h5,p{
     font-family: 'Vollkorn', serif;
     color:var(--blue);
@@ -207,6 +212,11 @@
 #help{
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+#help img {
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 #help h2,h5,p{
     font-family: 'Vollkorn', serif;
