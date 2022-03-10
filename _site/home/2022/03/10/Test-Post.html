@@ -20,7 +20,7 @@
 
     <!--    custom css-->
 
-    <link rel="stylesheet" type="text/css" href={{ "/assets/css/style.css" | relative_url }}>
+    <link rel="stylesheet" type="text/css" href=/NYT-Website/assets/css/style.css>
     <!--    fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,19 +38,45 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            {% for item in site.data.navigation.docs %}
+            
             <script>
-                console.log("{{item.url}}=={{page.url}}")
+                console.log("/==/home/2022/03/10/Test-Post.html")
             </script>
-            <li class= "{% if item.url == page.url %}active{% endif %}">
-                <a class="nav-link" href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a>
+            <li class= "">
+                <a class="nav-link" href="/NYT-Website/">Home</a>
             </li>
-            {% endfor %}
+            
+            <script>
+                console.log("/About.html==/home/2022/03/10/Test-Post.html")
+            </script>
+            <li class= "">
+                <a class="nav-link" href="/NYT-Website/About.html">About</a>
+            </li>
+            
+            <script>
+                console.log("/Donate.html==/home/2022/03/10/Test-Post.html")
+            </script>
+            <li class= "">
+                <a class="nav-link" href="/NYT-Website/Donate.html">Donate</a>
+            </li>
+            
+            <script>
+                console.log("/blog.html==/home/2022/03/10/Test-Post.html")
+            </script>
+            <li class= "">
+                <a class="nav-link" href="/NYT-Website/blog.html">Blog</a>
+            </li>
+            
         </ul>
     </div>
 </nav>
 
-{{content}}
+
+<h1>Welcome to my new site!</h1>
+
+Mar 10, 2022
+<p>Hello Today is a sad day for me</p>
+
 <!--footer-->
 <footer class="footer mt-auto">
     <div class="row ml-3">
