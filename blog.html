@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="container">
     <div class="row">
-        <ul class=" col-lg-12 list-group blog_post">
-            {% for post in site.posts %}
-            <h5>{{post.date}}->{{post.title}}</h5>
-            <li class="list-group-item"><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
-            {% endfor %}
+        <ul class="col-lg-12 list-group blog_post">
+                {% for post in site.posts %}
+                <h5>{{ post.date | date: "%b %d, %Y" }}: {{post.title}}</h5>
+                <li class="list-group-item"><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+                {% endfor %}
         </ul>
     </div>
 
