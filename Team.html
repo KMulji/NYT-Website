@@ -1,22 +1,26 @@
 ---
 layout: default
 ---
-<div class="team">
-    <div class="container-fluid">
-        <div class="row">
-            {% for member in site.team %}
-            <div class="col-xl-3 col-md-6 text-center d-flex align-items-stretch my-4">
-                <div class="card h-100">
-                    <img class="card-img-top" src="{{member.image}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h2 class="card-title">{{ member.name }}</h2>
-                        <h4 class="card-title">{{ member.position }}</h4>
-                        <p>{{ member.content | markdownify }}</p>
-                        <!--                    <a href="About.html" type="button" class="btn btn-primary">Learn More</a>-->
+<div class="fixer">
+
+
+    <div class="team">
+        <div class="container-fluid">
+            <div class="row">
+                {% for member in site.team %}
+                <div class="col-xl-3 col-md-6 text-center d-flex align-items-stretch my-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="{{member.image}}" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ member.name }}</h2>
+                            <h4 class="card-title">{{ member.position }}</h4>
+                            <p>{{ member.content | markdownify }}</p>
+                            <!--                    <a href="About.html" type="button" class="btn btn-primary">Learn More</a>-->
+                        </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </div>
