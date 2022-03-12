@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
+<div class="fixer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 d-flex-column">
+                {% if page.title%}
+                <h1>{{page.title}}</h1>
+                {% else %}
+                <h1>Untitled post</h1>
+                {% endif %}
+                {{ page.date | date: "%b %d, %Y" }}
+                {{ content }}
+            </div>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12 d-flex-column">
-            {% if page.title%}
-            <h1>{{page.title}}</h1>
-            {% else %}
-            <h1>Untitled post</h1>
-            {% endif %}
-            {{ page.date | date: "%b %d, %Y" }}
-            {{ content }}
         </div>
-
     </div>
 </div>
+
