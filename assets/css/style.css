@@ -264,7 +264,11 @@
     margin-top:5rem;
 }
 
-
+.fixer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .post_img{
     width:auto;
     height:auto;
