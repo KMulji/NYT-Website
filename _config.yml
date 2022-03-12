@@ -1,4 +1,4 @@
 baseurl: /NYT-Website
 
 collections:
-  - donation_list
+  - team

@@ -263,12 +263,12 @@
 .blog_post{
     margin-top:5rem;
 }
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
 .post_img{
     width:auto;
     height:auto;
@@ -277,4 +277,29 @@ body{
     margin-top:2rem;
     margin-bottom:2rem;
 }
+.team{
+    margin-top:5rem;
+    position: relative;
+}
+
+.team .card {
+    box-shadow: 0 0 15px var(--blue);
+}
+
+.team .card-title {
+    color: var(--black);
+    font-family: 'Vollkorn', serif;
+}
+.team .card-body {
+    padding: 1em;
+}
+
+
+.team a {
+    font-family: 'Vollkorn', serif;
+    border: 1px solid var(--blue);
+    background: var(--blue);
+    color: var(--white);
+}
+
 
