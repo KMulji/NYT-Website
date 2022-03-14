@@ -185,33 +185,38 @@
 }
 
 /*about us page*/
+.about_us .card{
 
+    border: 2px solid var(--blue);
+}
 .about_us, .donate {
     margin-top: 4em;
 
     position: relative;
 }
 
-.about_us h2 {
+.about_us h2,h3 {
     font-family: 'Vollkorn', serif;
-    color: var(--black);
+    color: var(--blue);
     margin: auto;
     text-align: center;
 }
+.about_us .card-img-top{
+    border-radius: 10%;
+    padding: 2rem;
+    margin:auto;
 
-.about_us .card {
-    box-shadow: 0 0 5px var(--blue);
 }
-
 .about_us .card-body {
     padding: 1em;
     font-family: 'Vollkorn', serif;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .about_us .card a {
     font-family: 'Vollkorn', serif;
-    border: 1px solid var(--blue);
+    border: 2px solid var(--blue);
     background: var(--blue);
     color: var(--white);
 }
@@ -222,9 +227,13 @@
     background: var(--blue);
     color: var(--white);
 }
+.list-group-item{
+    border-color: var(--black);
+
+}
 
 .donwload {
-    background-color: var(--blue);;
+    background-color: var(--blue);
 }
 
 #urgent {
@@ -278,7 +287,7 @@
     margin-bottom:2rem;
 }
 .team{
-    margin-top:5rem;
+    margin:4rem;
     position: relative;
 }
 
