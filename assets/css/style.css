@@ -186,12 +186,10 @@
 
 /*about us page*/
 .about_us .card{
-
     border: 2px solid var(--blue);
 }
-.about_us, .donate {
+.about_us, .donate .team{
     margin-top: 4em;
-
     position: relative;
 }
 
@@ -273,7 +271,6 @@
 }
 
 .fixer{
-
     display: flex;
     flex-direction: column;
 }
@@ -285,38 +282,36 @@
     margin-top:2rem;
     margin-bottom:2rem;
 }
-.team{
-    margin:4rem;
+.team .card{
+    border: 2px solid var(--blue);
+}
+.team, .donate .team{
+    margin-top: 4em;
     position: relative;
 }
 
-.team .card {
-    box-shadow: 0 0 15px var(--blue);
-
-}
-
-.team .card-title {
-    color: var(--black);
+.team h2,h3 {
     font-family: 'Vollkorn', serif;
+    color: var(--blue);
+    margin: auto;
+    text-align: center;
+}
+.team .card-img-top{
+    border-radius: 10%;
+    padding: 2rem;
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: auto;
 }
 .team .card-body {
     padding: 1em;
-}
-
-
-.team a {
     font-family: 'Vollkorn', serif;
-    border: 1px solid var(--blue);
-    background: var(--blue);
-    color: var(--white);
+    font-size: 1.2rem;
+    text-align: center;
 }
-.team img{
-    border-radius:50%;
-    height: 270px;
-    width: 270px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:2rem;
-}
+
+
+
 
 
