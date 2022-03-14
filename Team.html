@@ -9,12 +9,16 @@ layout: default
             <div class="row">
                 {% for member in site.team %}
                 <div class="col-xl-3 col-md-6 text-center d-flex align-items-stretch my-4">
-                    <div class="card h-100">
+                    <div class="card h-100 rounded">
                         <img class="card-img-top" src="{{member.image}}" alt="Card image cap">
                         <div class="card-body">
                             <h2 class="card-title">{{ member.name }}</h2>
                             <h4 class="card-title">{{ member.position }}</h4>
-                            <p>{{ member.content | markdownify }}</p>
+                            <h5 class="card-title">Duties</h5>
+                            <p>{{member.duties}}</p>
+                            <h5 class="card-title">Mission</h5>
+                            <p>"{{member.vision}}"</p>
+                            <!--<p>{{ member.content | markdownify }}</p>-->
                             <!--                    <a href="About.html" type="button" class="btn btn-primary">Learn More</a>-->
                         </div>
                     </div>

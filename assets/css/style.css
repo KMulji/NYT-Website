@@ -265,7 +265,7 @@
 }
 
 .fixer{
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
     flex-direction: column;
 }
@@ -284,6 +284,7 @@
 
 .team .card {
     box-shadow: 0 0 15px var(--blue);
+
 }
 
 .team .card-title {
@@ -300,6 +301,14 @@
     border: 1px solid var(--blue);
     background: var(--blue);
     color: var(--white);
+}
+.team img{
+    border-radius:50%;
+    height: 270px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:2rem;
 }
 
 
