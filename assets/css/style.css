@@ -186,6 +186,9 @@
 }
 
 /*about us page*/
+.about_us{
+    background: url('../../pictures/floral.webp');
+}
 .about_us .card{
     border: 2px solid var(--blue);
 }
@@ -275,6 +278,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: url('../../pictures/floral.webp');
 
 }
 .post_img{
