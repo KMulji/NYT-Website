@@ -275,6 +275,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
 }
 .post_img{
     width:auto;
@@ -335,6 +336,7 @@
     position: absolute;
     top: 30%;
     padding: 1em;
+
 }
 .history_description h1{
     color: var(--white);
@@ -343,13 +345,22 @@
     font-family: 'Vollkorn', serif;
     color: var(--blue);
     margin: auto;
+    text-align: justify;
 }
 .history h1{
     font-family: 'Vollkorn', serif;
     color: var(--white);
     margin: auto;
     font-size:5rem;
+
 }
+.history{
+    background: url('../../pictures/floral.webp');
+}
+.background{
+    background: var(--banner-low);
+}
+
 
 
 
