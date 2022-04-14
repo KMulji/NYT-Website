@@ -278,7 +278,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-
+    background: url('../../pictures/floral.webp');
 
 }
 .post_img{
