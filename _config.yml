@@ -1,4 +1,4 @@
-baseurl: /NYT-Website
+baseurl:
 
 collections:
   - team
