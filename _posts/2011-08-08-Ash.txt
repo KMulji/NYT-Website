@@ -1,5 +1,0 @@
----
-layout: posts
----
-
-hello my name is ash
