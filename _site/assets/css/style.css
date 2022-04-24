@@ -186,9 +186,9 @@
 }
 
 /*about us page*/
-.about_us{
-    background: url('../../pictures/floral.webp');
-}
+/*.about_us{*/
+/*    background: url('../../pictures/floral.webp');*/
+/*}*/
 .about_us .card{
     border: 2px solid var(--blue);
 }
@@ -358,9 +358,9 @@
     font-size:5rem;
 
 }
-.history{
-    background: url('../../pictures/floral.webp');
-}
+/*.history{*/
+/*    background: url('../../pictures/floral.webp');*/
+/*}*/
 .background{
     background: var(--banner-low);
 }
