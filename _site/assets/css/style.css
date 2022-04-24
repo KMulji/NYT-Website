@@ -198,7 +198,7 @@ h1,h2,h3,h5,p,a{
 .about_us .card{
     border: 2px solid var(--blue);
 }
-.about_us, .donate .team{
+.about_us,.donate,.team,.blogs{
     margin-top: 4em;
     position: relative;
 }
@@ -367,6 +367,35 @@ h1,h2,h3,h5,p,a{
 
 .background{
     background: var(--banner-low);
+}
+
+.blogs .card{
+    border: 2px solid var(--blue);
+}
+.blogs, .donate .team{
+    margin-top: 4em;
+    position: relative;
+}
+
+.blogs h2,h3 {
+
+    color: var(--blue);
+    margin: auto;
+    text-align: center;
+}
+.blogs .card-img-top{
+    border-radius: 10%;
+    padding: 2rem;
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+.blogs .card-body {
+    padding: 1em;
+
+
+    text-align: center;
 }
 
 
