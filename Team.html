@@ -1,41 +1,44 @@
 ---
 layout: default
 ---
+<div class="fixer">
 
-    <div class="team fixer">
+
+    <div class="team ">
         <div class="container-fluid px-5">
             <div class="row justify-content-center">
                 {% for member in site.team %}
-                    <div class="card mb-3 d-flex align-items-stretch">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img class="card-img-top" src="{{member.image}}" alt="Card image cap">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <ul class="list-group list-group-flush pb-4">
-                                        <li class="list-group-item">
-                                            <h2 class="card-title">{{ member.name }}</h2>
-                                            <h4 class="card-title">{{ member.position }}</h4>
-                                        </li>
+                <div class="card mb-3 d-flex align-items-stretch">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img-top" src="{{member.image}}" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush pb-4">
+                                    <li class="list-group-item">
+                                        <h2 class="card-title">{{ member.name }}</h2>
+                                        <h4 class="card-title">{{ member.position }}</h4>
+                                    </li>
 
-                                        <li class="list-group-item">
-                                            <h5 class="card-title">Duties</h5>
-                                            <p>{{member.duties}}</p>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <h5 class="card-title">Mission</h5>
-                                            <p>"{{member.vision}}"</p>
-                                        </li>
-                                        <li class="list-group-item">
+                                    <li class="list-group-item">
+                                        <h5 class="card-title">Duties</h5>
+                                        <p>{{member.duties}}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <h5 class="card-title">Mission</h5>
+                                        <p>"{{member.vision}}"</p>
+                                    </li>
+                                    <li class="list-group-item">
 
-                                        </li>
-                                    </ul>
-                                </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                </div>
                 {% endfor %}
             </div>
         </div>
     </div>
+</div>
