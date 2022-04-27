@@ -4,6 +4,7 @@
     --white: #ffffff;
     --black: #d8572a;
     --banner-low: rgba(244, 244, 244, 0.80);
+    --banner-low2: rgba(244, 244, 244, 0.99);
     --banner-history: rgba(0, 0, 0,0.30);
 }
 
@@ -369,6 +370,10 @@ h1,h2,h3,h5,p,a{
     background: var(--banner-low);
 }
 
+.background2{
+    background: var(--banner-low2);
+}
+
 .blogs .card{
     border: 2px solid var(--blue);
 }
@@ -397,6 +402,10 @@ h1,h2,h3,h5,p,a{
 
     text-align: center;
 }
+.post .post_heading{
+    text-align: center;
+}
+
 
 
 

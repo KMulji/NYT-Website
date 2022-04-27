@@ -23,6 +23,9 @@ layout: default
                                         <h5>Date Posted: {{ post.date | date: "%b %d, %Y" }}</h5>
                                     </li>
                                     <li class="list-group-item">
+                                        <h5>Author: {{ post.author}}</h5>
+                                    </li>
+                                    <li class="list-group-item">
                                         <a href="{{ post.url | relative_url }}">Read More</a>
                                     </li>
                                 </ul>
